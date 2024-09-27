@@ -35,7 +35,6 @@ dependencies:
 # Items not in conda forge
 - pip:
   - attrs==23.2.0
-#- -r infra-requirements.txt
   - jupyter-tree-download==1.0.1
 # Export notebooks as PDFs with Chrome
   - nb2pdf==0.6.2
