@@ -3,3 +3,15 @@
 # installing chromium browser to enable webpdf conversion using nbconvert
 export PLAYWRIGHT_BROWSERS_PATH=${CONDA_DIR}
 playwright install chromium
+
+# install nbconvert
+pip install nbconvert 
+
+for notebook in *.ipynb; do
+    jupyter nbconvert --to webpdf "$notebook"
+    if [ ! -f "${notebook%.ipynb}.pdf" ]; then
+        echo "Error: PDF conversion failed for $notebook"
+        exit 1
+    fi
+done
+
