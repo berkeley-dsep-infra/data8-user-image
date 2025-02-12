@@ -7,7 +7,7 @@ playwright install chromium
 # install nbconvert
 pip install nbconvert 
 
-for notebook in *.ipynb; do
+for notebook in image-tests/*.ipynb; do
     jupyter nbconvert --to webpdf "$notebook"
     if [ ! -f "${notebook%.ipynb}.pdf" ]; then
         echo "Error: PDF conversion failed for $notebook"
