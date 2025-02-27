@@ -2,15 +2,15 @@
 curl
 emacs
 less
-rsync
-vim
-wget
-screen
 man
 man-db
 manpages-posix
 manpages-dev
 manpages-posix-dev
+rsync
+screen
+vim
+wget
 zip
 
 # Regular build tools for compiling common stuff

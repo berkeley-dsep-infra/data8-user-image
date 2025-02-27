@@ -3,6 +3,7 @@ dependencies:
   - gh-scoped-creds==4.1
   - git==2.47.1
   - jupyter-archive==3.4.0
+  - jupyter-offlinenotebook==0.3.1
   - jupyter-resource-usage==1.1.0  
   - jupyter-server-proxy==4.4.0
   - jupyter_server==2.15.0 
@@ -13,6 +14,7 @@ dependencies:
   - jupytext==1.16.6
   - nbgitpuller==1.2.1
   - notebook==7.3.2
+  - otter-grader==6.1.0
   - pip==24.3.1  
   - python==3.11.*
 
@@ -43,7 +45,6 @@ dependencies:
   # Enable webpdf export DH-325
     - nbconvert[webpdf]==7.16.5
     - git-credential-helpers==0.2
-    - otter-grader==6.0.4
   # [DH-418] okpy 1.18.1 is not compatibile with otter-grader 6.0.4 because they require conflicting versions of requests
   #  - okpy==1.18.1
     - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
