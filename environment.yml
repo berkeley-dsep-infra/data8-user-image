@@ -49,4 +49,3 @@ dependencies:
   #  - okpy==1.18.1
     - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
 
-  # Testing notebook
