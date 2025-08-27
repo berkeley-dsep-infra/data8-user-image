@@ -26,7 +26,6 @@ dependencies:
 
   # data8
   - attrs==25.3.0
-  #- datascience==0.17.6
   - folium==0.19.6
   - ipykernel==6.29.5
   - ipympl==0.9.7
