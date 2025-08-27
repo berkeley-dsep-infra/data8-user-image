@@ -26,7 +26,6 @@ dependencies:
 
   # data8
   - attrs==25.3.0
-  - datascience==0.17.6
   - folium==0.19.6
   - ipykernel==6.29.5
   - ipympl==0.9.7
@@ -54,4 +53,5 @@ dependencies:
   # [DH-418] okpy 1.18.1 is not compatibile with otter-grader 6.0.4 because they require conflicting versions of requests
   #  - okpy==1.18.1
     - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
-
+  # DH - 557 
+    - datascience==0.18.0
