@@ -47,7 +47,7 @@ dependencies:
   - pip:
     - jupyter-tree-download==1.0.1
   # https://github.com/berkeley-dsep-infra/datahub/issues/7669
-    - jupytutor==0.2.0
+    - jupytutor==0.2.1
   # Export notebooks as PDFs with Chrome
     - nb2pdf==0.6.2
     - nbpdfexport==0.2.1
