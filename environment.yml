@@ -43,7 +43,10 @@ dependencies:
   - statsmodels==0.14.4
   - syncthing==1.29.6
   - traitlets=5.14.3
-
+  # DH-679 
+  - datasets=4.8.4
+  - sentence-transformers=5.2.0
+  
   # Items not in conda forge
   - pip:
     - jupyter-tree-download==1.0.1
